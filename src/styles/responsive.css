@@ -1,0 +1,67 @@
+/* Base responsive styles */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container responsive widths */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
+/* Section spacing */
+@media (max-width: 768px) {
+  .section {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .section {
+    padding: 2rem 0;
+  }
+}
