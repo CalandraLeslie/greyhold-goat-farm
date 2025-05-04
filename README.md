@@ -44,7 +44,7 @@ To get started with the Greyhold Goat Farm website, follow these steps:
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/yourusername/greyhold-goat-farm.git
+   git clone https://github.com/calandraleslie/greyhold-goat-farm.git
    ```
 
 2. **Navigate to the project directory:**
